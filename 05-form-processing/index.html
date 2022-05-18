@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <label>Product Name:</label>
+        <input type="text" id="product-name"/>
+    </div>
+    <div>
+        <label>Select the type of delivery</label><br/>
+        <input type="radio" name="delivery" value="express" class="delivery" /><label>Express delivery (less than 7 days)</label><br/>
+        <input type="radio" name="delivery" value="normal" class="delivery"><label>Normal delivery (about 14 days)</label><br/>
+        <input type="radio" name="delivery" value="special" class="delivery"><label>Overnight delivered by a drone</label>
+    </div>
+    <div>
+        <label>Select some of the following options</label>
+        <input type="checkbox" name="options" class="options" value="gift-wrap"/><label>Wrap as a gift</label>
+        <input type="checkbox" name="options" class="options" value="bigger-packaging"/><label>Bigger packaging</label>
+        <input type="checkbox" name="options" class="options" value="fragile-label"/><label>Label as fragile</label>
+        <input type="checkbox" name="options" class="options" value="leave-at-doorstep"/><label>Leave at doorstep</label>
+    </div>
+
+    <div>
+        <label>Select country to send to:</label>
+        <select id="country">
+            <option value="malaysia">Malaysia</option>
+            <option value="philippines">Philippines</option>
+            <option value="singapore">Singapore</option>         
+        </select>
+    </div>
+    
+    <button id="submitBtn">Submit</button>
+    <script src="script.js"></script>
+</body>
+</html>
