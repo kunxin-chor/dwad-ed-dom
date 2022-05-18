@@ -1,0 +1,16 @@
+/* hashtag represents id */
+#subtitle {
+    background-color: yellow;
+}
+
+/* dot represent class */
+.menu-item {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* want to style all instances of elements */
+p {
+    font-family: Verdana;
+}
