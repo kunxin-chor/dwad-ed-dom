@@ -1,0 +1,15 @@
+#errors {
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.error {
+    color: red; 
+}
+
+.error p {
+    margin-top: 0;
+}
