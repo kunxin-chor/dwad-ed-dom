@@ -1,0 +1,22 @@
+[
+    {
+        "title":"The Lord of the Rings",
+        "genre":"Fantasy",
+        "duration": 180
+    },
+    {
+        "title":"Dune",
+        "genre":"Science-Fic",
+        "duration":120
+    },
+    {
+        "title":"Dr. Strange",
+        "genre":"Superheroes",
+        "duration":150
+    },
+    {
+        "title":"Superman vs. Batman",
+        "genre":"Superheroes",
+        "duration": 160
+    }
+]
