@@ -24,5 +24,5 @@ for(let eachFruit of fruits) {
     // recreate <option value=${eachFruit.value}>${eachFruit.name}</option>
     optionElement.innerHTML = eachFruit.name;
     optionElement.value = eachFruit.value;
-   selectFruit.appendChild(optionElement);
+    selectFruit.appendChild(optionElement);
 }
