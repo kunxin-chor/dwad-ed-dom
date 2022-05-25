@@ -1,4 +1,6 @@
-const BASE_API_URL = "https://pokeapi.co/api/v2";
+let BASE_API_URL = "https://pokeapi.co/api/v2";
+
+
 
 document.querySelector("#btnSearch")
     .addEventListener('click', async function () {
